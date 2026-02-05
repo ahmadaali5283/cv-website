@@ -50,7 +50,7 @@ body {
     background-color: #ffffff;
     padding: 20px;
     float: left;
-    min-height: 100vh;
+    min-height: 50vh;
 }
 
 .main-content {
