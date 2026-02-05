@@ -12,7 +12,13 @@ body {
     color: #333;
     line-height: 1.6;
 }
-
+.cv-container {
+    max-width: 900px;
+    /* controls overall CV width */
+    margin: 20px auto;
+    /* center on screen */
+    background-color: #fff;
+}
 /* Header */
 .header-class {
     background-color: #2f2f2f;
