@@ -2,68 +2,111 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Ahmad Ali - CV</title>
+    <title>Ahmad Ali | Web Developer</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="cv-container">
 
-<header class="header-class">
-    <div class ="profile">
-        <img src="profile.jpg" alt="Ahmad Ali" class="profile-image">
-        <div>
-        <h1 class="name">Ahmad Ali</h1>
-        <p class="title">Computer science student</p>
-        </div>
+<button id="themeToggle" class="theme-toggle">🌙</button>
+
+<div class="cv-wrapper">
+
+    <header class="header">
+        <img src="profilepic.jpeg" alt="Ahmad Ali">
+        <h1>Ahmad Ali</h1>
+        <p>Full-Stack Web Developer</p>
+    </header>
+
+    <div class="grid">
+
+        <aside class="left">
+
+            <div class="card abt">
+                <h2>About</h2>
+                <p>
+                    Web developer with strong experience in building responsive,
+                    scalable applications using modern JavaScript frameworks.
+                </p>
+            </div>
+
+            <div class="card">
+                <h2>Skills</h2>
+                <ul class="tags">
+                    <li>HTML</li><li>CSS</li><li>JavaScript</li>
+                    <li>React</li><li>Node.js</li><li>Git</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h2>Contact</h2>
+                <p>-ahmad@example.com</p>
+                <p>-github.com/ahmadali</p>
+                <p>-linkedin.com/in/ahmadali</p>
+            </div>
+
+        </aside>
+
+        <main class="right">
+
+            <div class="card exp">
+                <h2>Experience</h2>
+                <div class="item">
+                    <h3>Frontend Developer</h3>
+                    <span>2023 — Present</span>
+                    <p>
+                        Built modern UIs using React, optimized performance,
+                        and collaborated with backend teams.
+                    </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2>Projects</h2>
+                <div class="item">
+                    <h3>Portfolio Website</h3>
+                    <p>Modern portfolio using HTML, CSS & JS.</p>
+                </div>
+                <div class="item">
+                    <h3>CineVerse</h3>
+                    <p>Full-stack MERN Cinema app with authentication.</p>
+                </div>
+                <div class="item">
+                    <h3>Task Manager App</h3>
+                    <p>Full-stack MERN app with authentication.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2>Education</h2>
+                <p><strong>BS Computer Science</strong><br>FAST-NUCES</p>
+                <p><strong>Alevels</strong><br>BeaconHouse</p>
+            </div>
+
+            <div class="card">
+                <h2>Contact Me</h2>
+                <form id="contactForm">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Message" required></textarea>
+                    <button type="submit">Send</button>
+                </form>
+                <p id="formMsg"></p>
+            </div>
+
+        </main>
+
     </div>
-</header>
-<aside class="sidebar">
-<div class="aboutme">
-    <p>
-        I am a Computer Science student with strong skills in programming, web development,
-        and artificial intelligence. I have experience with Python, C++, HTML, CSS, and
-        JavaScript, and enjoy building real-world and AI-based applications. With over four
-        years of teaching experience, I bring strong communication and problem-solving skills.
-    </p>
-</div>
-</div>
-    <div class="contactinfo"></div>
-    <h2>Contact</h2>
-    <p>Email: ahmad@example.com</p>
-    <p>GitHub: github.com/ahmadaali5283</p>
-</div>
-<div class="education">
-    <h2>Education</h2>
 
-    <p><strong>Bachelor of Computer Science</strong><br>
-        FAST-NUCES</p>
+    <footer class="footer">
+        © 2026 Ahmad Ali — Web Developer
+    </footer>
 
-    <p><strong>A Levels</strong><br>
-        Beaconhouse School System</p>
-
-    <p><strong>O Levels</strong><br>
-        Beaconhouse School System</p>
 </div>
 
-<div class="skills">
-    <h2>Skills</h2>
-    <ul>
-      <li>C++</li>
-      <li>HTML & CSS</li>
-      <li>JavaScript</li>
-    </ul>
-    </div>
-    <div class="language">
-    <h2>Languages</h2>
-    <ul>
-      <li>English</li>
-      <li>Urdu</li>
-    </div>
-  </aside>
-<main class="main content">
-
-</main>
-</div>
+<script src="script.js"></script>
 </body>
 </html>
